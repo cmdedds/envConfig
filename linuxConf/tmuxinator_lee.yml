@@ -1,0 +1,14 @@
+#~/.tmuxinator/lee.yml
+
+name: lee
+root: /root
+
+windows:
+    - basic:
+        cd ~
+
+    - vpp:
+        cd /root/vpp
+
+    - vpp-run:
+        cd /root/vpp
